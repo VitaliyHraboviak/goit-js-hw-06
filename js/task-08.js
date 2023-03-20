@@ -18,7 +18,7 @@ function onFormSubmit(event) {
     if (email.length === 0) {
         alert('потрібно заповнити поле email');
     };
-    if (password.length < 5) {
+    if (password.length < 6) {
         alert('потрібно заповнити поле Password не менше 6 символів');
     };
 
